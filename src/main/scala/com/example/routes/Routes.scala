@@ -19,8 +19,13 @@ object AppRouter {
       }
     }
 
-    val userRoutes: Route = pathPrefix("api") {
+    val Router: Route = pathPrefix("api") {
       path("users") {
+        get {
+          entity(as[UserModel]) { user =>
+            userController.getAllUsers()
+          }
+        } ~
         post {
           entity(as[UserModel]) { user =>
             userController.addUser(user)
@@ -46,6 +51,6 @@ object AppRouter {
       }
     }
 
-    mainRoutes ~ userRoutes
+    mainRoutes ~ Router
   }
 }

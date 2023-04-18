@@ -12,6 +12,11 @@ import com.example.enums.Role._
 object UserRepository {
   val db = DatabaseConnection.db
 
+  def getAllUsers: Future[Seq[UserModel]] = {
+    val query = UsersTable.all.result
+    db.run(query)
+  }
+
   def addUser(user: UserModel): Future[Long] = {
     val query = UsersTable.all returning UsersTable.all.map(_.id) += user
     db.run(query)
