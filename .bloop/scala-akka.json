@@ -15,10 +15,10 @@
             
         ],
         "classpath": [
-            "/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar",
+            "/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10.jar",
             "/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor-typed_2.13/2.8.0/akka-actor-typed_2.13-2.8.0.jar",
             "/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.13/10.2.6/akka-http_2.13-10.2.6.jar",
-            "/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.6.17/akka-stream_2.13-2.6.17.jar",
+            "/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.8.0/akka-stream_2.13-2.8.0.jar",
             "/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar",
             "/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.2/config-1.4.2.jar",
             "/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/postgresql/postgresql/42.2.23/postgresql-42.2.23.jar",
@@ -26,14 +26,13 @@
             "/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.13/2.8.0/akka-slf4j_2.13-2.8.0.jar",
             "/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar",
             "/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.13/10.2.6/akka-http-core_2.13-10.2.6.jar",
-            "/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.6.17/akka-protobuf-v3_2.13-2.6.17.jar",
-            "/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar",
-            "/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.13/0.4.2/ssl-config-core_2.13-0.4.2.jar",
+            "/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.8.0/akka-protobuf-v3_2.13-2.8.0.jar",
+            "/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar",
+            "/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.13/0.6.1/ssl-config-core_2.13-0.6.1.jar",
             "/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar",
             "/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar",
             "/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/1.0.0/scala-java8-compat_2.13-1.0.0.jar",
-            "/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.13/10.2.6/akka-parsing_2.13-10.2.6.jar",
-            "/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.13/1.1.2/scala-parser-combinators_2.13-1.1.2.jar"
+            "/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.13/10.2.6/akka-parsing_2.13-10.2.6.jar"
         ],
         "out": "/Users/pornpitak.a/Documents/GitHub/scala-akka/.bloop/scala-akka",
         "classesDir": "/Users/pornpitak.a/Documents/GitHub/scala-akka/.bloop/scala-akka/scala-2.13/classes",
@@ -44,16 +43,17 @@
         "scala": {
             "organization": "org.scala-lang",
             "name": "scala-compiler",
-            "version": "2.13.1",
+            "version": "2.13.10",
             "options": [
                 
             ],
             "jars": [
-                "/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar",
-                "/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.1/scala-compiler-2.13.1.jar",
-                "/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.1/scala-reflect-2.13.1.jar",
-                "/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6.jar",
-                "/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.12/jansi-1.12.jar"
+                "/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10.jar",
+                "/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.10/scala-compiler-2.13.10.jar",
+                "/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.10/scala-reflect-2.13.10.jar",
+                "/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/github/java-diff-utils/java-diff-utils/4.12/java-diff-utils-4.12.jar",
+                "/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.21.0/jline-3.21.0.jar",
+                "/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0.jar"
             ],
             "setup": {
                 "order": "mixed",
@@ -135,17 +135,17 @@
                 {
                     "organization": "org.scala-lang",
                     "name": "scala-library",
-                    "version": "2.13.1",
+                    "version": "2.13.10",
                     "configurations": "default",
                     "artifacts": [
                         {
                             "name": "scala-library",
-                            "path": "/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar"
+                            "path": "/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10.jar"
                         },
                         {
                             "name": "scala-library",
                             "classifier": "sources",
-                            "path": "/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1-sources.jar"
+                            "path": "/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10-sources.jar"
                         }
                     ]
                 },
@@ -186,17 +186,17 @@
                 {
                     "organization": "com.typesafe.akka",
                     "name": "akka-stream_2.13",
-                    "version": "2.6.17",
+                    "version": "2.8.0",
                     "configurations": "default",
                     "artifacts": [
                         {
                             "name": "akka-stream_2.13",
-                            "path": "/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.6.17/akka-stream_2.13-2.6.17.jar"
+                            "path": "/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.8.0/akka-stream_2.13-2.8.0.jar"
                         },
                         {
                             "name": "akka-stream_2.13",
                             "classifier": "sources",
-                            "path": "/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.6.17/akka-stream_2.13-2.6.17-sources.jar"
+                            "path": "/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.8.0/akka-stream_2.13-2.8.0-sources.jar"
                         }
                     ]
                 },
@@ -322,51 +322,51 @@
                 {
                     "organization": "com.typesafe.akka",
                     "name": "akka-protobuf-v3_2.13",
-                    "version": "2.6.17",
+                    "version": "2.8.0",
                     "configurations": "default",
                     "artifacts": [
                         {
                             "name": "akka-protobuf-v3_2.13",
-                            "path": "/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.6.17/akka-protobuf-v3_2.13-2.6.17.jar"
+                            "path": "/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.8.0/akka-protobuf-v3_2.13-2.8.0.jar"
                         },
                         {
                             "name": "akka-protobuf-v3_2.13",
                             "classifier": "sources",
-                            "path": "/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.6.17/akka-protobuf-v3_2.13-2.6.17-sources.jar"
+                            "path": "/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.8.0/akka-protobuf-v3_2.13-2.8.0-sources.jar"
                         }
                     ]
                 },
                 {
                     "organization": "org.reactivestreams",
                     "name": "reactive-streams",
-                    "version": "1.0.3",
+                    "version": "1.0.4",
                     "configurations": "default",
                     "artifacts": [
                         {
                             "name": "reactive-streams",
-                            "path": "/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar"
+                            "path": "/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar"
                         },
                         {
                             "name": "reactive-streams",
                             "classifier": "sources",
-                            "path": "/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3-sources.jar"
+                            "path": "/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4-sources.jar"
                         }
                     ]
                 },
                 {
                     "organization": "com.typesafe",
                     "name": "ssl-config-core_2.13",
-                    "version": "0.4.2",
+                    "version": "0.6.1",
                     "configurations": "default",
                     "artifacts": [
                         {
                             "name": "ssl-config-core_2.13",
-                            "path": "/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.13/0.4.2/ssl-config-core_2.13-0.4.2.jar"
+                            "path": "/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.13/0.6.1/ssl-config-core_2.13-0.6.1.jar"
                         },
                         {
                             "name": "ssl-config-core_2.13",
                             "classifier": "sources",
-                            "path": "/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.13/0.4.2/ssl-config-core_2.13-0.4.2-sources.jar"
+                            "path": "/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.13/0.6.1/ssl-config-core_2.13-0.6.1-sources.jar"
                         }
                     ]
                 },
@@ -439,36 +439,19 @@
                     ]
                 },
                 {
-                    "organization": "org.scala-lang.modules",
-                    "name": "scala-parser-combinators_2.13",
-                    "version": "1.1.2",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "scala-parser-combinators_2.13",
-                            "path": "/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.13/1.1.2/scala-parser-combinators_2.13-1.1.2.jar"
-                        },
-                        {
-                            "name": "scala-parser-combinators_2.13",
-                            "classifier": "sources",
-                            "path": "/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.13/1.1.2/scala-parser-combinators_2.13-1.1.2-sources.jar"
-                        }
-                    ]
-                },
-                {
                     "organization": "org.scala-lang",
                     "name": "scala-library",
-                    "version": "2.13.1",
+                    "version": "2.13.10",
                     "configurations": "optional",
                     "artifacts": [
                         {
                             "name": "scala-library",
-                            "path": "/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar"
+                            "path": "/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10.jar"
                         },
                         {
                             "name": "scala-library",
                             "classifier": "sources",
-                            "path": "/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1-sources.jar"
+                            "path": "/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10-sources.jar"
                         }
                     ]
                 }

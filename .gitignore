@@ -2,6 +2,7 @@
 target/
 project/target/
 project/project/
+.bloop/
 
 # Log files
 *.log
@@ -14,3 +15,4 @@ project/project/
 
 # Config files with secrets
 src/main/resources/application.conf
+
