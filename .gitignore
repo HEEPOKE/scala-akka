@@ -13,4 +13,4 @@ project/project/
 *.bak
 
 # Config files with secrets
-conf/application.conf
+src/main/resources/application.conf
