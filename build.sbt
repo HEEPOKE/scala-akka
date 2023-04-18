@@ -16,5 +16,6 @@ libraryDependencies ++= Seq(
   "ch.qos.logback" % "logback-classic" % "1.2.3",
   "org.scalatest" %% "scalatest" % "3.1.0" % Test,
   "com.typesafe" % "config" % "1.4.1",
-  "org.postgresql" % "postgresql" % "42.2.23"
+  "org.postgresql" % "postgresql" % "42.2.23",
+  "org.flywaydb" % "flyway-core" % "8.0.0"
 )

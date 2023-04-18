@@ -15,4 +15,5 @@ project/project/
 
 # Config files with secrets
 src/main/resources/application.conf
+src/main/resources/flyway.conf
 

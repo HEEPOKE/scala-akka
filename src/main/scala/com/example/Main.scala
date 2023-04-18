@@ -8,6 +8,7 @@ import akka.http.scaladsl.server.Directives._
 import scala.concurrent.ExecutionContextExecutor
 import com.example.config.Config
 import com.example.routes.AppRouter
+import com.example.config.MigrationDB
 
 object Main extends App {
   val config = Config.instance
@@ -18,6 +19,8 @@ object Main extends App {
   )
 
   implicit val ec: ExecutionContextExecutor = system.executionContext
+
+  MigrationDB.migrateDatabase()
 
   val router: Route = AppRouter()
 
