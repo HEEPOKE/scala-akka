@@ -7,7 +7,7 @@ import scala.concurrent.ExecutionContextExecutor
 
 object AppRouter {
   def apply()(implicit system: ActorSystem[_], ec: ExecutionContextExecutor): Route = {
-    path("/") {
+    path("") {
       get {
         complete("HUI")
       }
