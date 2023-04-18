@@ -1,0 +1,16 @@
+# Compiled files
+target/
+project/target/
+project/project/
+
+# Log files
+*.log
+
+# Temporary files
+*~
+*.swp
+*.tmp
+*.bak
+
+# Config files with secrets
+conf/application.conf
