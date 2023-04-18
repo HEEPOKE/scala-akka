@@ -1,0 +1,57 @@
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
+[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 0 products, 0 sources, 0 libraries[0m
+[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/src/main/scala/com/example/AkkaQuickstart.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(${BASE}/src/main/scala/com/example/AkkaQuickstart.scala), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())[0m
+[0m[[0m[0mdebug[0m] [0m[0mFull compilation, no sources in previous analysis.[0m
+[0m[[0m[0mdebug[0m] [0m[0mall 1 sources are invalidated[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: [0m
+[0m[[0m[0mdebug[0m] [0m[0mRecompiling all sources: number of invalidated sources > 50.0 percent of all sources[0m
+[0m[[0m[0mdebug[0m] [0m[0mcompilation cycle 1[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/pornpitak.a/Documents/GitHub/scala-akka/target/scala-2.13/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.13:1.8.0:compile for Scala 2.13.1[0m
+[0m[[0m[0minfo[0m] [0m[0mNon-compiled module 'compiler-bridge_2.13' for Scala 2.13.1. Compiling...[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating plain compiler interface for 2.13.1.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  > Arguments: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	-d[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/r1/wxykdks524g3m4t50qt2vvfh0000gq/T/sbt_99e8926a[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-nowarn[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.8.0/compiler-interface-1.8.0.jar:/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.8.0/util-interface-1.8.0.jar:/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-bridge_2.13/1.8.0/compiler-bridge_2.13-1.8.0-sources.jar:/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.1/scala-compiler-2.13.1.jar:/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.1/scala-reflect-2.13.1.jar:/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6.jar:/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.12/jansi-1.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/r1/wxykdks524g3m4t50qt2vvfh0000gq/T/sbt_a374f142/scala/ZincCompat.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/r1/wxykdks524g3m4t50qt2vvfh0000gq/T/sbt_a374f142/xsbt/API.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/r1/wxykdks524g3m4t50qt2vvfh0000gq/T/sbt_a374f142/xsbt/AbstractZincFile.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/r1/wxykdks524g3m4t50qt2vvfh0000gq/T/sbt_a374f142/xsbt/Analyzer.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/r1/wxykdks524g3m4t50qt2vvfh0000gq/T/sbt_a374f142/xsbt/CallbackGlobal.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/r1/wxykdks524g3m4t50qt2vvfh0000gq/T/sbt_a374f142/xsbt/ClassName.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/r1/wxykdks524g3m4t50qt2vvfh0000gq/T/sbt_a374f142/xsbt/Compat.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/r1/wxykdks524g3m4t50qt2vvfh0000gq/T/sbt_a374f142/xsbt/CompilerBridge.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/r1/wxykdks524g3m4t50qt2vvfh0000gq/T/sbt_a374f142/xsbt/ConsoleBridge.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/r1/wxykdks524g3m4t50qt2vvfh0000gq/T/sbt_a374f142/xsbt/DelegatingReporter.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/r1/wxykdks524g3m4t50qt2vvfh0000gq/T/sbt_a374f142/xsbt/Dependency.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/r1/wxykdks524g3m4t50qt2vvfh0000gq/T/sbt_a374f142/xsbt/ExtractAPI.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/r1/wxykdks524g3m4t50qt2vvfh0000gq/T/sbt_a374f142/xsbt/ExtractUsedNames.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/r1/wxykdks524g3m4t50qt2vvfh0000gq/T/sbt_a374f142/xsbt/GlobalHelpers.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/r1/wxykdks524g3m4t50qt2vvfh0000gq/T/sbt_a374f142/xsbt/InteractiveConsoleBridge.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/r1/wxykdks524g3m4t50qt2vvfh0000gq/T/sbt_a374f142/xsbt/InteractiveConsoleFactoryBridge.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/r1/wxykdks524g3m4t50qt2vvfh0000gq/T/sbt_a374f142/xsbt/InteractiveConsoleHelper.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/r1/wxykdks524g3m4t50qt2vvfh0000gq/T/sbt_a374f142/xsbt/InteractiveConsoleResponse.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/r1/wxykdks524g3m4t50qt2vvfh0000gq/T/sbt_a374f142/xsbt/JarUtils.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/r1/wxykdks524g3m4t50qt2vvfh0000gq/T/sbt_a374f142/xsbt/JavaUtils.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/r1/wxykdks524g3m4t50qt2vvfh0000gq/T/sbt_a374f142/xsbt/LocalToNonLocalClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/r1/wxykdks524g3m4t50qt2vvfh0000gq/T/sbt_a374f142/xsbt/LocateClassFile.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/r1/wxykdks524g3m4t50qt2vvfh0000gq/T/sbt_a374f142/xsbt/Log.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/r1/wxykdks524g3m4t50qt2vvfh0000gq/T/sbt_a374f142/xsbt/Message.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/r1/wxykdks524g3m4t50qt2vvfh0000gq/T/sbt_a374f142/xsbt/ScaladocBridge.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m      [0m
+[0m[[0m[0minfo[0m] [0m[0m  Compilation completed in 9.348s.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 6fbd7b69 for Scala compiler version 2.13.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Users/pornpitak.a/Documents/GitHub/scala-akka/target/scala-2.13/classes:/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor-typed_2.13/2.8.0/akka-actor-typed_2.13-2.8.0.jar:/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.8.0/akka-actor_2.13-2.8.0.jar:/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.13/2.8.0/akka-slf4j_2.13-2.8.0.jar:/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.2/config-1.4.2.jar:/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/1.0.0/scala-java8-compat_2.13-1.0.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 12.455170954 s[0m
+[0m[[0m[0mdebug[0m] [0m[0mdone compiling[0m
