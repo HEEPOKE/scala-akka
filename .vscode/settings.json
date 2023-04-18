@@ -4,5 +4,8 @@
         "logback",
         "scalatest",
         "testkit"
-    ]
+    ],
+    "files.watcherExclude": {
+        "**/target": true
+    }
 }
