@@ -3,7 +3,7 @@ package com.example.models
 import java.time.LocalDateTime
 import com.example.enums.Role._
 
-case class User(
+case class UserModel(
   id: Long,
   username: String,
   email: String,
