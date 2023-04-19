@@ -31,15 +31,14 @@ object UserRepository {
       id: Long,
       username: String,
       email: String,
-      password: String,
       tel: String,
       role: Role,
       updatedAt: LocalDateTime
   ): Future[Int] = {
-    val query = UsersTable.all
+     val query = UsersTable.all
       .filter(_.id === id)
-      .map(u => (u.username, u.email, u.password, u.tel, u.role, u.updatedAt))
-      .update((username, email, password, tel, role, updatedAt))
+      .map(u => (u.username, u.email, u.tel, u.role, u.updatedAt).mapTo[UserModel])
+      .update((username, email, tel, role, updatedAt))
     db.run(query)
   }
 

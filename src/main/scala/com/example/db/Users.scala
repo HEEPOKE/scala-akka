@@ -6,7 +6,6 @@ import slick.jdbc.PostgresProfile.api._
 import com.example.models.UserModel
 import com.example.enums
 import com.example.enums.Role._
-import slick.ast.TypedType
 
 class Users(tag: Tag) extends Table[UserModel](tag, "users") {
   implicit val roleTypeMapper: BaseColumnType[Role] =
@@ -33,7 +32,7 @@ class Users(tag: Tag) extends Table[UserModel](tag, "users") {
     role,
     createdAt,
     updatedAt
-  ).mapTo[UserModel] <> ((UserModel.apply _).tupled, UserModel.unapply)
+  ).mapTo[UserModel]
 }
 
 object UsersTable {
