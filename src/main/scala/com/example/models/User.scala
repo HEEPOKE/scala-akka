@@ -10,6 +10,6 @@ case class UserModel(
   password: String,
   tel: String,
   role: Role,
-  createdAt: LocalDateTime,
-  updatedAt: LocalDateTime
+  // createdAt: LocalDateTime,
+  // updatedAt: LocalDateTime
 )

@@ -3,6 +3,7 @@ target/
 project/target/
 project/project/
 .bloop/
+.metals/
 
 # Log files
 *.log

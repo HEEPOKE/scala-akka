@@ -20,32 +20,43 @@ object AppRouter {
     }
 
     val Router: Route = pathPrefix("api") {
-      path("users") {
-        get {
-          entity(as[UserModel]) { user =>
-            userController.getAllUsers()
-          }
-        } ~
-        post {
-          entity(as[UserModel]) { user =>
-            userController.addUser(user)
-          }
-        } ~
+      pathPrefix("users") {
+        path("") {
           get {
-            parameter("id".as[Long]) { id =>
-              userController.getUser(id)
+            entity(as[UserModel]) { user =>
+              userController.getAllUsers()
             }
           } ~
-          put {
-            parameter("id".as[Long]) { id =>
-              entity(as[UserModel]) { user =>
-                userController.updateUser(id, user)
+        }
+        path("add") {
+          post {
+            entity(as[UserModel]) { user =>
+              userController.addUser(user)
+            }
+          }
+        } ~
+          path("find") {
+            get {
+              parameter("id".as[Long]) { id =>
+                userController.getUser(id)
+                userController.getUser(id)
               }
             }
           } ~
-          delete {
-            parameter("id".as[Long]) { id =>
-              userController.deleteUser(id)
+          path("update") {
+            put {
+              parameter("id".as[Long]) { id =>
+                entity(as[UserModel]) { user =>
+                  userController.updateUser(id, user)
+                }
+              }
+            }
+          } ~
+          path("delete") {
+            delete {
+              parameter("id".as[Long]) { id =>
+                userController.deleteUser(id)
+              }
             }
           }
       }
