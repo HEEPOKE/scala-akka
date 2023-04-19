@@ -9,7 +9,7 @@ case class UserModel(
   email: String,
   password: String,
   tel: String,
-  role: Role,
-  // createdAt: LocalDateTime,
-  // updatedAt: LocalDateTime
+  role: Role.Role,
+  createdAt: LocalDateTime,
+  updatedAt: LocalDateTime
 )

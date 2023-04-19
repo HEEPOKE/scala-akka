@@ -18,6 +18,6 @@ libraryDependencies ++= Seq(
   "com.typesafe" % "config" % "1.4.1",
   "org.postgresql" % "postgresql" % "42.2.8",
   "org.flywaydb" % "flyway-core" % "8.0.0",
-  "com.typesafe.slick" %% "slick" % "3.3.3",
+  "com.typesafe.slick" %% "slick" % "3.4.1",
   "org.slf4j" % "slf4j-nop" % "1.6.4"
 )
